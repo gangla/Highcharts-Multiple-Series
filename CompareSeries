@@ -73,7 +73,7 @@ $.each(names, function (i, name) {
                         shift = s.data.length > 20;
                         var x = (new Date()).getTime(), // current time
                             y = Math.round(Math.random() * 100);
-                        s.addPoint([x, y], true, true);
+                        s.addPoint([x, y], true, shift);
                         
                     });
                 }, 5000);
